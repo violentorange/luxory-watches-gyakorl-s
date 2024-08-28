@@ -17,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::apiResource('watches', WatchController::class);
 Route::get('brands/{brand}/watches', [BrandController::class, 'watchesOfBrand']);
+
